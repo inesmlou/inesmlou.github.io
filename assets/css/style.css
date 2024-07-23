@@ -277,7 +277,7 @@ Portfolio
 .portfolio-details {
     position: relative;
     color: #777575;
-    top: -20px;
+    top: -5px;
     left: 5px;
     font-size: 18px;
 }
@@ -365,12 +365,6 @@ Portfolio
     padding: 0px;
 }
 
-.popup-content h3:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-
 .popup-content p {
     margin: 10px 0;
     line-height: 1.6;
@@ -439,6 +433,19 @@ Portfolio
     position: relative;
     width: 500px;
     height: 500px;
+    text-align: center;
+  }
+#svg-container-height200 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+  }
+  #svg-container-400 {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    text-align: center;
   }
   svg {
     position: absolute;
@@ -450,6 +457,12 @@ Portfolio
   }
   .expandable-circle:hover {
     r: 15;
+  }
+  .expandable-circle2 {
+    transition: r 0.3s ease;
+  }
+  .expandable-circle2:hover {
+    r: 13;
   }
   
   .hide1{
@@ -503,6 +516,47 @@ Portfolio
     left: 450px;
   }
 
+  .sweden-txt2{
+    top: 1300px;
+    left: 450px;
+  }
+  .germany-txt2{
+    top: 1300px;
+    left: 450px;
+  }
+  .uk-txt2{
+    top: 1300px;
+    left: 450px;
+  }
+  .gotenburg-txt{
+    top: 1300px;
+    left: 450px;
+  }
+  .lund-txt{
+    top: 1300px;
+    left: 450px;
+  }
+  .linkoping-txt{
+    top: 1300px;
+    left: 450px;
+  }
+  .umea-txt{
+    top: 1300px;
+    left: 450px;
+  }
+
+  .botswana-txt{
+    top: 600px;
+    left: 450px;
+  }
+  .kenya-txt{
+    top: 600px;
+    left: 450px;
+  }
+  .rwanda-txt{
+    top: 600px;
+    left: 450px;
+  }
   .container-pics {
     display: flex;
     flex-wrap: wrap;

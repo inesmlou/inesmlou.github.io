@@ -195,7 +195,7 @@ function showPopup(rectangleId) {
         '<p>WASP the largest individual research program in Sweden and focuses on funding and developing strategical research, education and faculty recruitment in the aeras of AI and autonomous systems. </p>
         <p>I was accepted as an affiliated WASP graduate student, at batch 1 of the Explainable Machine Learning (MLX) track. I attended courses in several Swedish universities, winter conferences, summer schools, international trips, and research arenas. 
         </div> 
-        <div class="section blue">
+        <div class="section black">
         Courses:<br>
         <ul>
         <li>Ethical, Legal and Societal aspects of AI and Autonomous Systems - Umea </li>
@@ -212,21 +212,85 @@ function showPopup(rectangleId) {
         <li> Study trip to the UK: University of Cambridge, University of Oxford, Imperial College London, King's College London, ARM, and Astra Zeneca. (October 2022) + Poster. </li>
         <li> 2022 Winter Conference. Gothenburg & Linköping. + Poster </li>
         <li> Summer school </li>
-        <li> Study trip to Germany: RWTH Aachen University, TU Darmstadt, and Max Planck Institute for Intelligent Systems, November 2019.. + Poster </li>
+        <li> Study trip to Germany: RWTH Aachen University, TU Darmstadt, and Max Planck Institute for Intelligent Systems. (November 2019) + Poster </li>
         <li> 2019 Winter Conference. Gothenburg & Linköping. + Poster </li> 
         </p>
         </div>
-        <div class="section black">
+        <div class="section blue">
         <p>  &#127942; Funding for exchange visit at UC Berkeley.</p>
-         <p>[Map of sweden: goteborg, umea,(online), stockholm, linkoping, lund. Maybe also GER+UK</p>
-
-         <div id="svg-container">
+        </div>
+        <div class="section black">
+         <div id="svg-container-height200">
          <!-- Embed the base SVG file -->
-         <object id="world-svg" type="image/svg+xml" data="assets/images/worldmap_sweden.svg" width="500" height="500"></object>
+         <object id="world-svg" type="image/svg+xml" data="assets/images/worldmap_sweden.svg" width="400" height="400"></object>
          <!-- Overlay SVG elements -->
-         <svg width="500" height="500">
+         <svg width="400" height="400">
+         <circle
+         class="cls-2 marker-sweden2 expandable-circle2"
+         cx="286"
+         cy="140.09317"
+         id="circle276"
+         style="fill:#d40000;stroke-width:1.76472"
+         r="10" /><circle
+         class="cls-2 marker-gotenburg expandable-circle2"
+         cx="255.05969"
+         cy="150.37109"
+         id="circle276-6-4"
+         style="fill:#ff9955;stroke-width:1.76472"
+         r="10" /><circle
+         class="cls-2 marker-uk2 expandable-circle2"
+         cx="175.79443"
+         cy="215.03943"
+         id="circle276-6-4-3"
+         style="fill:#ff6600;stroke-width:1.76472"
+         r="10" /><circle
+         class="cls-2 marker-germany2 expandable-circle2"
+         cx="235"
+         cy="230"
+         id="circle276-6-4-3-2"
+         style="fill:#ff6600;stroke-width:1.76472"
+         r="10" /><circle
+         class="cls-2 marker-linkoping expandable-circle2"
+         cx="275"
+         cy="155"
+         id="circle276-6-4-2"
+         style="fill:#ff9955;stroke-width:1.76472"
+         r="10" /><circle
+         class="cls-2 marker-lund expandable-circle2"
+         cx="270"
+         cy="173"
+         id="circle276-6-4-8"
+         style="fill:#ff9955;stroke-width:1.76471"
+         r="10" /><circle
+         class="cls-2 marker-umea expandable-circle2"
+         cx="286"
+         cy="100"
+         id="circle276-6-4-8-4"
+         style="fill:#ff9955;stroke-width:1.76472"
+         r="10" />
            </svg>
        </div>
+       <div class="sweden-txt2 hide1">
+       <p>Theoretical ML course, KTH, Stockholm</p>
+      </div>
+      <div class="germany-txt2 hide1">
+      <p>International trip to Germany</p>
+     </div>
+     <div class="uk-txt2 hide1">
+     <p>International trip to London, Cambridge and Oxford, UK</p>
+    </div>
+    <div class="gotenburg-txt hide1">
+    <p>AI Course and winter conference, Chalmers, Gotenburg</p>
+   </div>
+   <div class="linkoping-txt hide1">
+   <p>AI course and winter conference, LiU, Linkoping</p>
+  </div>
+  <div class="lund-txt hide1">
+  <p>AI course, Lund University, Lund</p>
+ </div>
+ <div class="umea-txt hide1">
+ <p>Ethical AI course, Umea University, Umea</p>
+</div>
         </div>  
         <div class="section white">
         <div class="container-pics">
@@ -262,9 +326,6 @@ function showPopup(rectangleId) {
         <li> Autonomous Systems, Machine Learning, Image Processing and Vision, Artificial Intelligence, Optimization, Automatic Control, Databases, Internet Based Systems Architecture. </li>
         </ul>
         </div>
-        <div class="section blue">
-         <p>Linked to: NTNU, JUNITEC, Champalimaud</p>
-        </div>
         `,
 
         'rect-NTNU': `
@@ -286,6 +347,8 @@ function showPopup(rectangleId) {
           <p style="font-size: smaller; font-style: italic; text-align: center;">🚀 Top institution in Portugal <a href="https://www.timeshighereducation.com/world-university-rankings/2024/world-ranking" target="_blank">Link</a></p>
         </div>
         <p>To explore my interest for robotics and neuroscience I proposed a collaboration between IST and Champalimaud Foundation for my Master thesis. With my supervisor, Prof. Rodrigo Ventura <a href="https://scholar.google.se/citations?user=sftSuj8AAAAJ&hl=en&oi=ao" target="_blank"> <i class="fas fa-graduation-cap"></i> </a>, and the <a href="https://fchampalimaud.org/research/groups/paton" target="_blank">Learning lab</a> headed by Joe Paton <a href="https://scholar.google.se/citations?user=sftSuj8AAAAJ&hl=en&oi=ao" target="_blank"> <i class="fas fa-graduation-cap"></i> </a>, we studied how the learning algorithms of the brain concerning the judgment of the passage of time - studied in mice - could be implemented in robots: “Temporal Perspectives: Exploring a robot's perception of time”. </p>
+        </div>
+        <div class="section blue">
         <p> &#127942; With the paper "Teaching Robots to Perceive Time: A Twofold Learning Approach" derived from this work we received the Best Paper and Best Student Paper Award at IEEE International Conference in Development and Learning (ICDL-Epirob, 2020).</p>
         </div>
         `,
@@ -324,14 +387,14 @@ function showPopup(rectangleId) {
         'rect-scaleup':  `
         <div class="section white">
         <div class="center-text">
-          <h3>Scaleup Robotics</h3>
+          <h3><a href="https://scaleuprobotics.com" target="_blank">Scaleup Robotics</a></h3>
           <p><strong>Consultant, 2023-Present </strong></p>
         </div>
         <p>Joined the 2 cofounders of Scaleup Robotics, a Cloud robotics startup in EdTech. My roles: <ul>  
         <li>Development of teaching modules and robotics tutorials for education. HTML, VueJS, CSS, Git</li>
-        <li>Leading workshop with San Francisco Library for Tech Week</li>   
+        <li>Leading a robotics workshop with the San Francisco Library for the SF Tech Week</li>   
         <li>Outreach and sales</li>    
-        <li>Brand design: website, flyers, and other marketing materials</li> 
+        <li>Brand design including website and flyers.</li> 
         </ul>  
         </div>
         `,
@@ -339,7 +402,7 @@ function showPopup(rectangleId) {
         'rect-uncrux': `
         <div class="section white">
         <div class="center-text">
-          <h3>KTH Innovation</h3>
+          <h3><a href="https://www.kth.se/en/om/innovation/kth-innovation-1.956839" target="_blank">KTH Innovation</a></h3>
           <p><strong>2022/2023 Pre-incubator program </strong></p>
         </div>
         <p>Participated in KTH Innovation Discovery Program, and Pre-Incubator Program.</p>
@@ -350,13 +413,13 @@ function showPopup(rectangleId) {
         'rect-junitec2': `
         <div class="section white">
         <div class="center-text">
-          <h3>HR and Project manager at JUNITEC</h3>
-          <p><strong>years </strong></p>
+          <h3><a href="https://junitec.pt/home/" target="_blank">JUNITEC</a></h3>
+          <p><strong>HR and Project manager, 2014-2016</strong></p>
         </div>
         </p> <p>Technical project manager: <ul>  
         <li>Heated Adjustable Pockets -  Development of adjustable temperature heated pockets with a colleague during a year, designed for helping a pianist from Patient Innovation with the Charcot Marie Tooth disease (Apr '15 - Aug '15). 
         <ul>
-        <li> &#127942; ‘Innovation Project of the Year’ - Award given by JADE Portugal (European Confederation of Junior Enterprises) </li>
+        <li> &#127942; 'Innovation Project of the Year' - Award given by JADE Portugal (European Confederation of Junior Enterprises) </li>
         <li> &#127942; Exhibition in London Science museum </li>
         <li> &#127942; Exhibition in pavilhao do conhecimento</li>  
         </ul> </li>
@@ -365,10 +428,10 @@ function showPopup(rectangleId) {
         <li>Wordpress Workshops ASPA - 2 Wordpress workshops given to "Asperger Syndrome Portuguese Association" (2015).
         </li>   </ul></p>
         </div>
-        <div class="section black">
+        <div class="section blue">
         <p>HR manager heading a team of 6 people, organized events and interviewed more than 90 people. Team leadership, time management, social and communicational skills.
         </div>
-        <div class="section white">
+        <div class="section black">
         <div class="container-pics">
         <div class="gallery-item">
             <img src="assets/images/junitec5.jpg" alt="Image 1">
@@ -400,7 +463,7 @@ function showPopup(rectangleId) {
         'rect-phdchapter': `
         <div class="section white">
         <div class="center-text">
-          <h3>PhD Chapter Board</h3>
+          <h3><a href="https://www.dr.kth.se/" target="_blank">PhD Chapter Board</a></h3>
           <p><strong>02/2020-12/2021</strong></p>
         </div>
         <p>Business manager:  <ul>  <li>Involved in doctoral student issues at KTH level - attended meetings as student representative</li>    <li>Led the first edition of the Supervisor of the Year award 2020 and was jury member for 2 years</li>  <li>Organised PhD participation in THS Armada career fair</li>   <li>Networking and reception events - Organized welcome reception lunches for new students</li>  </ul>  </p> <p>Master of ceremonies: <ul>  <li>Organised monthly PhD pubs</li> </ul>  </p>  <p> Board of nominations</p>
@@ -435,7 +498,7 @@ function showPopup(rectangleId) {
         'rect-WOP': `
         <div class="section white">
         <div class="center-text">
-          <h3>WOP Women of Power</h3>
+          <h3><a href="https://www.kth.se/blogs/wop/" target="_blank">WOP Women of Power</a></h3>
           <p><strong>Jan 2019-2022</strong></p>
         </div>
         <p>Head and board member of WOP@KTH, a KTH Female doctoral network led by women fighting for gender equality and women rights. </p> <p>Organised networking mingles, movie screening, and fundraising for events.</p>  <p> Organised the <a href="https://www.kth.se/blogs/wop/previous-activities/risingstars2019/" target="_blank">Rising Stars</a> two-day event at Djuronaset Hotel, with:  <ul>  <li>2 international speakers</li>  <li>Mental health & career planinng workshops.</li>  </p>
@@ -498,7 +561,7 @@ function showPopup(rectangleId) {
         'rect-GDH': `
         <div class="section white">
         <div class="center-text">
-          <h3>KTH Global Development Hub</h3>
+          <h3><a href="https://www.kth.se/en/om/internationellt/globaldevelopmenthub/kth-global-development-hub-1.1335047" target="_blank">KTH Global Development Hub</a></h3>
           <p><strong>Staff exchange, 10/2023 </strong></p>
         </div>
         <p>3 week staff exchange at KTH partner universities in Africa: Botho University, Strathmore University, University of Rwanda.</p>
@@ -507,6 +570,43 @@ function showPopup(rectangleId) {
         <p> Gave 2 presentations on introduction and advanced robotics </p>
         <p> Visited universities, companies, NGOs, and robotic centers </p>
         </div>
+        <div class="section black">
+         <div id="svg-container-400">
+         <!-- Embed the base SVG file -->
+         <object id="world-svg" type="image/svg+xml" data="assets/images/worldmap_africa.svg" width="400" height="400"></object>
+         <!-- Overlay SVG elements -->
+         <svg width="400" height="400">
+         <circle
+         class="cls-2 marker-botswana expandable-circle"
+         cx="270"
+         cy="290.09317"
+         id="circle276"
+         style="fill:#ff9955;stroke-width:1.76472"
+         r="12" /><circle
+         class="cls-2 marker-kenya expandable-circle"
+         cx="325.05969"
+         cy="200.37109"
+         id="circle276-6-4"
+         style="fill:#ff9955;stroke-width:1.76472"
+         r="12" /><circle
+         class="cls-2 marker-rwanda expandable-circle"
+         cx="295.79443"
+         cy="205.03943"
+         id="circle276-6-4-3"
+         style="fill:#ff9955;stroke-width:1.76472"
+         r="12" />
+           </svg>
+       </div>
+       <div class="botswana-txt hide1">
+       <p>Botho University, Gaborone, Botswana</p>
+      </div>
+      <div class="kenya-txt hide1">
+      <p>Strathmore University, Nairobi, Kenya</p>
+     </div>
+     <div class="rwanda-txt hide1">
+     <p>University of Rwanda, Kigali, Rwanda</p>
+    </div>
+        </div>  
         <div class="section black">
         <div class="container-pics">
         <div class="gallery-item">
@@ -528,7 +628,7 @@ function showPopup(rectangleId) {
         'rect-EWB': `
         <div class="section white">
         <div class="center-text">
-          <h3>Engineers Without Borders</h3>
+          <h3><a href="https://www.ewb-swe.org/" target="_blank">Engineers Without Borders</a></h3>
           <p><strong>2022-present</strong></p>
         </div>
         <p>Development of a report on sustainable engineering, encomprising the different phases of an engineer lifecycle from education to retirement.</p> <p>Joined the construction team of the Asulma school and solar cooking project in Nairobi slums.</p>
@@ -563,61 +663,102 @@ function showPopup(rectangleId) {
         console.log("Marker clicked");
         $(".sweden-txt1").show();
       });
-      
         $(".marker-berkeley").click(function(){
           $(".hide1").hide();
           console.log("Marker clicked");
         $(".berkeley-txt1").show();
       });
-      
         $(".marker-chile").click(function(){
           $(".hide1").hide();
           console.log("Marker clicked");
         $(".chile-txt1").show();
       });
-      
         $(".marker-mexico").click(function(){
           $(".hide1").hide();
         $(".mexico-txt1").show();
       });
-
       $(".marker-miami").click(function(){
         $(".hide1").hide();
         console.log("Marker clicked");
       $(".miami-txt1").show();
       });
-
       $(".marker-france").click(function(){
         $(".hide1").hide();
         console.log("Marker clicked");
       $(".france-txt1").show();
       });
-
       $(".marker-barcelona").click(function(){
         $(".hide1").hide();
         console.log("Marker clicked");
       $(".barcelona-txt1").show();
       });
-
       $(".marker-padova").click(function(){
         $(".hide1").hide();
         console.log("Marker clicked");
       $(".padova-txt1").show();
       });
-
       $(".marker-korea").click(function(){
         $(".hide1").hide();
         console.log("Marker clicked");
       $(".korea-txt1").show();
       });
-
       $(".marker-singapore").click(function(){
         $(".hide1").hide();
         console.log("Marker clicked");
       $(".singapore-txt1").show();
       });
 
+      $(".marker-sweden2").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".sweden-txt2").show();
+      });
+      $(".marker-uk2").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".uk-txt2").show();
+      });
+      $(".marker-germany2").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".germany-txt2").show();
+      });
+      $(".marker-linkoping").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".linkoping-txt").show();
+      });
+      $(".marker-lund").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".lund-txt").show();
+      });
+      $(".marker-umea").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".umea-txt").show();
+      });
+      $(".marker-gotenburg").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".gotenburg-txt").show();
+      });
 
+      $(".marker-botswana").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".botswana-txt").show();
+      });
+      $(".marker-kenya").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".kenya-txt").show();
+      });
+      $(".marker-rwanda").click(function(){
+        $(".hide1").hide();
+        console.log("Marker clicked");
+      $(".rwanda-txt").show();
+      });
 
     });
 }
