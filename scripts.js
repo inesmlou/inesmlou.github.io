@@ -390,10 +390,10 @@ function showPopup(rectangleId) {
           <h3><a href="https://scaleuprobotics.com" target="_blank">Scaleup Robotics</a></h3>
           <p><strong>Consultant, 2023-Present </strong></p>
         </div>
-        <p>Joined the 2 cofounders of Scaleup Robotics, a Cloud robotics startup in EdTech. My roles: <ul>  
-        <li>Development of teaching modules and robotics tutorials for education. HTML, VueJS, CSS, Git</li>
-        <li>Leading a robotics workshop with the San Francisco Library for the SF Tech Week</li>   
-        <li>Outreach and sales</li>    
+        <p>Joined the 2 cofounders of Scaleup Robotics, a Cloud robotics startup in EdTech. My roles: <ul>
+        <li>Led market research and outreach efforts for the Global South, where I had seen a need for robotics education. I met with several professors and industry professionals, and partnerships for online robotics education are being developed as a result. </li>   
+        <li>Led a robotics workshop with the San Francisco Library for the SF Tech Week. I planned the workshops' educational content, developed the interface frontend, and presented the workshops to the public.</li>   
+        <li>Development of teaching modules and robotics tutorials for education, using HTML, VueJS, CSS, Git</li>
         <li>Brand design including website and flyers.</li> 
         </ul>  
         </div>
@@ -466,7 +466,11 @@ function showPopup(rectangleId) {
           <h3><a href="https://www.dr.kth.se/" target="_blank">PhD Chapter Board</a></h3>
           <p><strong>02/2020-12/2021</strong></p>
         </div>
-        <p>Business manager:  <ul>  <li>Involved in doctoral student issues at KTH level - attended meetings as student representative</li>    <li>Led the first edition of the Supervisor of the Year award 2020 and was jury member for 2 years</li>  <li>Organised PhD participation in THS Armada career fair</li>   <li>Networking and reception events - Organized welcome reception lunches for new students</li>  </ul>  </p> <p>Master of ceremonies: <ul>  <li>Organised monthly PhD pubs</li> </ul>  </p>  <p> Board of nominations</p>
+        <p>Business manager:  <ul>  <li>Involved in doctoral student issues at KTH level - attended meetings as student representative in several committees </li>    <li>Led the first edition of the Supervisor of the Year award 2020, a tradition that has been repeated yearly ever since. Was jury member for two mandates</li>  <li>Organised PhD participation in THS Armada career fair</li>   <li>Networking and reception events - Organized welcome reception lunches for new students</li> </li> <li> Designed marketing material</li> <li> Position renewed for 3 mandates and was invited to become chairperson.</li> </ul>  </p>
+         <p>Master of ceremonies: <ul>  <li>Organised monthly PhD pubs with 60+ students</li> </ul>  </p> 
+         <p> Board of nominations:
+         <ul> <li> Member of the nominating committee for two mandates, ensuring the successful continuation of the Board. </li> </ul>
+         </p>
         </div>
         <div class="section black">
         <div class="container-pics">
@@ -566,8 +570,9 @@ function showPopup(rectangleId) {
         </div>
         <p>3 week staff exchange at KTH partner universities in Africa: Botho University, Strathmore University, University of Rwanda.</p>
         <p> &#127942; Erasmus+ funding </p>
-        <p> 📚 Meetings with faculty and students about digitalization, e-learning, and robotics and AI in Africa</p>
-        <p> Gave 2 presentations on introduction and advanced robotics </p>
+        <p> 📚 Meetings with faculty and students about project-based education, digitalization, e-learning, and robotics and AI in Africa</p>
+        <p> Defined collaborations for future projects with the partner universities whose implementation is underway</p>
+        <p> Gave 2 talks on introductory and advanced robotics & AI with good feedback and was asked for mentoring</p>
         <p> Visited universities, companies, NGOs, and robotic centers </p>
         </div>
         <div class="section black">
