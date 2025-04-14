@@ -203,6 +203,8 @@ Portfolio
 
 .portfolio-title {
     color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px; /* <- espaço abaixo */
 }
 
 .portfolio-button {
@@ -237,9 +239,9 @@ Portfolio
     padding: 0px; /* Padding around content inside columns */
     /* border: 1px solid #080000; Border for visualization */
     margin-bottom: 0px; /* Space between columns */
+    display: flex; /* Enable Flexbox */
     flex: 1; /* Equal distribution of remaining space */
     flex-basis: 0.5%;
-    display: flex; /* Enable Flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
@@ -249,6 +251,15 @@ Portfolio
     white-space: nowrap; /* Prevent text from wrapping */
     text-align: center; /* Center text horizontally */
     margin-left: -10px; /* Adjust for alignment */
+    font-size: 30px; /* Adjust font size as needed */
+    color: #ffffff; 
+}
+.vertical-text-2 {
+    writing-mode: vertical-rl; /* Vertical text orientation */
+    transform: rotate(180deg); /* Fix for Firefox */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-align: center; /* Center text horizontally */
+    margin-left: 20px; /* Adjust for alignment */
     font-size: 30px; /* Adjust font size as needed */
     color: #ffffff; 
 }
@@ -276,7 +287,7 @@ Portfolio
 }
 .portfolio-details {
     position: relative;
-    color: #777575;
+    color: #ffffff;
     top: -5px;
     left: 5px;
     font-size: 18px;
@@ -288,7 +299,9 @@ Portfolio
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
+.fake-space {
+    color: #060000; /* ou qualquer cor que queiras */
+  }
 /* Button styling */
 .image-button {
     position: relative;
@@ -837,3 +850,5 @@ Hobbies
     top: 50%;
     left: 18%;
   }
+
+  

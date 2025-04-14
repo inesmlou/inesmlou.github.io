@@ -429,7 +429,8 @@ function showPopup(rectangleId) {
         </li>   </ul></p>
         </div>
         <div class="section blue">
-        <p>HR manager heading a team of 6 people, organized events and interviewed more than 90 people. Team leadership, time management, social and communicational skills.
+        <p>HR manager heading a team of 6 people, organized events and interviewed more than 90 people. Team leadership, time management, social and communicational skills.</p>
+        <p> Invited to become chairperson.</p>
         </div>
         <div class="section black">
         <div class="container-pics">
@@ -505,7 +506,7 @@ function showPopup(rectangleId) {
           <h3><a href="https://www.kth.se/blogs/wop/" target="_blank">WOP Women of Power</a></h3>
           <p><strong>Jan 2019-2022</strong></p>
         </div>
-        <p>Head and board member of WOP@KTH, a KTH Female doctoral network led by women fighting for gender equality and women rights. </p> <p>Organised networking mingles, movie screening, and fundraising for events.</p>  <p> Organised the <a href="https://www.kth.se/blogs/wop/previous-activities/risingstars2019/" target="_blank">Rising Stars</a> two-day event at Djuronaset Hotel, with:  <ul>  <li>2 international speakers</li>  <li>Mental health & career planinng workshops.</li>  </p>
+        <p>Head and board member of WOP@KTH, a KTH Female doctoral network led by women fighting for gender equality and women rights. </p> <p>Organised networking mingles, movie screening, and fundraising for events.</p>  <p> Organised the <a href="https://www.kth.se/blogs/wop/previous-activities/risingstars2019/" target="_blank">Rising Stars</a> two-day event at Djuronaset Hotel, with:  <ul>  <li>2 international speakers</li>  <li>Mental health & career planning workshops.</li>  </p>
         </div>
         <div class="section black">
         <div class="container-pics">
