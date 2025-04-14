@@ -488,87 +488,88 @@ Portfolio
     border: 1px solid #644666;
     font-size: 12px;
   }
+  /* KTH */
   .sweden-txt1{
-    top: 1400px;
-    left: 500px;
+    top: 1430px;
+    left: 700px;
   }
   .chile-txt1{
-    top: 1650px;
-    left: 420px;
+    top: 1570px;
+    left: 500px;
   }
   .berkeley-txt1{
-    top: 1440px;
-    left: 300px;
+    top: 1455px;
+    left: 450px;
   }
   .mexico-txt1{
-    top: 1550px;
-    left: 400px;
+    top: 1520px;
+    left: 460px;
   }
   .miami-txt1{
     top: 1500px;
-    left: 410px;
+    left: 480px;
   }
   .france-txt1{
-    top: 1550px;
-    left: 400px;
+    top: 1450px;
+    left: 650px;
   }
   .korea-txt1{
-    top: 1450px;
-    left: 400px;
+    top: 1470px;
+    left: 800px;
   }
   .singapore-txt1{
-    top: 1630px;
-    left: 450px;
+    top: 1550px;
+    left: 770px;
   }
   .barcelona-txt1{
-    top: 1580px;
-    left: 380px;
+    top: 1470px;
+    left: 650px;
   }
   .padova-txt1{
-    top: 1580px;
-    left: 450px;
+    top: 1470px;
+    left: 700px;
   }
-
+/* WASP */
   .sweden-txt2{
-    top: 1300px;
-    left: 450px;
+    top: 1400px;
+    left: 700px;
   }
   .germany-txt2{
-    top: 1300px;
-    left: 450px;
+    top: 1480px;
+    left: 690px;
   }
   .uk-txt2{
-    top: 1300px;
-    left: 450px;
+    top: 1460px;
+    left: 580px;
   }
   .gotenburg-txt{
-    top: 1300px;
-    left: 450px;
+    top: 1410px;
+    left: 640px;
   }
   .lund-txt{
-    top: 1300px;
-    left: 450px;
+    top: 1420px;
+    left: 720px;
   }
   .linkoping-txt{
-    top: 1300px;
-    left: 450px;
+    top: 1410px;
+    left: 700px;
   }
   .umea-txt{
-    top: 1300px;
-    left: 450px;
+    top: 1350px;
+    left: 700px;
   }
-
+/* GDH */
   .botswana-txt{
-    top: 600px;
-    left: 450px;
+    top: 930px;
+    left: 690px;
   }
   .kenya-txt{
-    top: 600px;
-    left: 450px;
+    top: 840px;
+    left: 760px;
   }
   .rwanda-txt{
-    top: 600px;
-    left: 450px;
+    top: 840px;
+    left: 730px;
   }
   .container-pics {
     display: flex;
