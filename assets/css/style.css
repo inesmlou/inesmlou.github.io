@@ -21,6 +21,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*/////////////////////////////////////////
+Enter animations
+////////////////////////////////////////*/
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -166,6 +191,39 @@ Hi there
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 50px;
+}
+
+.logo-strip {
+  max-width: 900px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-strip-item {
+  height: 32px;
+  width: auto;
+  max-width: 130px;
+  object-fit: contain;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo-strip-item:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 767.98px) {
+  .logo-strip-item {
+    height: 26px;
+    padding: 8px 12px;
+  }
 }
 
 /* Typewriter effect */

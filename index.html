@@ -56,6 +56,14 @@
 
       gtag("config", "UA-68929300-2");
     </script>
+    <noscript
+      ><style>
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style></noscript
+    >
   </head>
 
   <body>
@@ -96,10 +104,10 @@
 
     <section id="aboutme">
       <div class="container-hithere">
-        <div class="myphoto">
+        <div class="myphoto reveal">
           <img src="assets/images/IL.jpg" alt="Your Photo" />
         </div>
-        <div class="hithere">
+        <div class="hithere reveal" style="transition-delay: 0.1s">
           <h1>Hi, I'm In&ecirc;s</h1>
           <p id="typewriter-text">
             I'm a &#129302; Robotics and AI enthusiast with a &#127891; Ph.D. in Decision and Control Systems and a
@@ -109,10 +117,20 @@
           <!--My name is [Your Name]. I am a [Your Profession] with a passion for [Your Interests]. I have been working in this field for [X years] and enjoy [what you enjoy doing]. In my free time, I love to [your hobbies].-->
         </div>
       </div>
+
+      <div class="logo-strip reveal" style="transition-delay: 0.2s">
+        <img src="assets/images/logo-kth.svg" alt="KTH Royal Institute of Technology" class="logo-strip-item" />
+        <img src="assets/images/logo-berkeley.svg" alt="UC Berkeley" class="logo-strip-item" />
+        <img src="assets/images/logo-ist.png" alt="Instituto Superior Técnico" class="logo-strip-item" />
+        <img src="assets/images/logo-champalimaud.svg" alt="Champalimaud Foundation" class="logo-strip-item" />
+        <img src="assets/images/logo-gulbenkian.svg" alt="Fundação Calouste Gulbenkian" class="logo-strip-item" />
+        <img src="assets/images/logo-ntnu.svg" alt="NTNU" class="logo-strip-item" />
+        <img src="assets/images/logo-wasp.svg" alt="WASP" class="logo-strip-item" />
+      </div>
     </section>
 
     <section id="intro">
-      <div class="container-aboutme">
+      <div class="container-aboutme reveal">
         <h1>About me</h1>
         <p class="margintop-sm">
           &#127891; During my Ph.D. degree at
@@ -158,8 +176,8 @@
 
     <section id="portfolio">
       <div class="container">
-        <h1 class="portfolio-title">Projects</h1>
-        <div class="row">
+        <h1 class="portfolio-title reveal">Projects</h1>
+        <div class="row reveal">
           <div class="column-text">
             <h1 class="text-title vertical-text">Education</h1>
           </div>
@@ -201,7 +219,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row reveal">
           <div class="column-text">
             <h1 class="text-title vertical-text"><span class="fake-space">.</span></h1>
           </div>
@@ -275,7 +293,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row reveal">
           <div class="column-text">
             <h1 class="text-title vertical-text">Startups</h1>
           </div>
@@ -334,7 +352,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row reveal">
           <div class="column-text">
             <h1 class="text-title vertical-text">Advocacy</h1>
           </div>
@@ -380,7 +398,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row reveal">
           <div class="column-text">
             <h1 class="text-title vertical-text">Global Development</h1>
           </div>

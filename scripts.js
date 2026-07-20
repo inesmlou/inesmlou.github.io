@@ -1,4 +1,38 @@
 ///////////////////////////
+//  Enter animations
+//////////////////////////
+
+document.addEventListener("DOMContentLoaded", function () {
+  const revealElements = document.querySelectorAll(".reveal");
+  if (revealElements.length === 0) return;
+
+  const revealAll = () => revealElements.forEach((el) => el.classList.add("is-visible"));
+
+  if (!("IntersectionObserver" in window)) {
+    revealAll();
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
+  );
+
+  revealElements.forEach((el) => observer.observe(el));
+
+  // Safety net: if anything is ever missed by the observer (e.g. a browser quirk),
+  // don't leave real content permanently invisible.
+  window.setTimeout(revealAll, 4000);
+});
+
+///////////////////////////
 //  About page
 //////////////////////////
 

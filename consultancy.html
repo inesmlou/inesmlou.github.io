@@ -532,6 +532,14 @@
         }
       }
     </style>
+    <noscript
+      ><style>
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style></noscript
+    >
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg">
@@ -569,7 +577,7 @@
     <section class="hero-section">
       <div class="container-narrow">
         <div class="hero-grid">
-          <div>
+          <div class="reveal">
             <span class="eyebrow-badge">Serviços de Consultoria</span>
             <h1>
               Impulsionar negócios através de
@@ -587,7 +595,7 @@
             </div>
           </div>
 
-          <div class="hero-panel">
+          <div class="hero-panel reveal" style="transition-delay: 0.15s">
             <div class="hero-panel-header">
               <span>Exemplo de Projeto</span>
               <span>●&nbsp;&nbsp;●&nbsp;&nbsp;●</span>
@@ -605,7 +613,7 @@
     <!-- Services -->
     <section>
       <div class="container-narrow">
-        <div class="section-head">
+        <div class="section-head reveal">
           <div>
             <div class="eyebrow-numbered">01 — Serviços</div>
             <h2 class="headline">Um conjunto de ferramentas focado para negócios que querem avançar mais depressa.</h2>
@@ -617,7 +625,7 @@
         </div>
 
         <div class="card-grid">
-          <div class="feature-card">
+          <div class="feature-card reveal">
             <i class="icon ion-md-checkbox-outline icon-wrap"></i>
             <h4>Avaliação de processos</h4>
             <p>
@@ -626,25 +634,25 @@
             </p>
             <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
           </div>
-          <div class="feature-card">
+          <div class="feature-card reveal">
             <i class="icon ion-md-git-network icon-wrap"></i>
             <h4>Automação e fluxos de trabalho</h4>
             <p>Substituição de trabalho manual e repetitivo por automações fiáveis que libertam tempo à sua equipa.</p>
             <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
           </div>
-          <div class="feature-card">
+          <div class="feature-card reveal">
             <i class="icon ion-md-bulb icon-wrap"></i>
             <h4>Estratégia de dados e IA</h4>
             <p>Adoção pragmática de IA — desde provas de conceito até sistemas em produção em que pode confiar.</p>
             <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
           </div>
-          <div class="feature-card">
+          <div class="feature-card reveal">
             <i class="icon ion-md-speedometer icon-wrap"></i>
             <h4>Dashboards personalizados</h4>
             <p>Visibilidade em tempo real sobre as métricas que realmente fazem o seu negócio avançar.</p>
             <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
           </div>
-          <div class="feature-card">
+          <div class="feature-card reveal">
             <i class="icon ion-md-school icon-wrap"></i>
             <h4>Formação e mentoria</h4>
             <p>
@@ -652,7 +660,7 @@
             </p>
             <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
           </div>
-          <div class="feature-card quote">
+          <div class="feature-card quote reveal">
             <p>"Pequenas mudanças na forma como se trabalha — grandes mudanças no que uma equipa consegue fazer."</p>
           </div>
         </div>
@@ -662,23 +670,23 @@
     <!-- Work areas -->
     <section>
       <div class="container-narrow">
-        <div class="eyebrow-numbered">02 — Áreas de Trabalho</div>
+        <div class="eyebrow-numbered reveal">02 — Áreas de Trabalho</div>
         <h2 class="headline" style="font-size: 2.1rem; margin-bottom: 34px">Onde o trabalho acontece.</h2>
 
         <div class="work-grid">
-          <div class="work-card">
+          <div class="work-card reveal">
             <div class="work-card-top"><i class="icon ion-md-cog"></i><span>01</span></div>
             <h4>Software de Automação</h4>
           </div>
-          <div class="work-card">
+          <div class="work-card reveal">
             <div class="work-card-top"><i class="icon ion-md-bulb"></i><span>02</span></div>
             <h4>Machine Learning e IA</h4>
           </div>
-          <div class="work-card">
+          <div class="work-card reveal">
             <div class="work-card-top"><i class="icon ion-md-code"></i><span>03</span></div>
             <h4>Software à Medida</h4>
           </div>
-          <div class="work-card">
+          <div class="work-card reveal">
             <div class="work-card-top"><i class="icon ion-md-stats"></i><span>04</span></div>
             <h4>Dados e Visualização</h4>
           </div>
@@ -689,7 +697,7 @@
     <!-- Case study -->
     <section>
       <div class="container-narrow">
-        <div class="eyebrow-numbered">03 — Exemplo de Projeto</div>
+        <div class="eyebrow-numbered reveal">03 — Exemplo de Projeto</div>
         <h2 class="headline" style="font-size: 2.1rem; margin-bottom: 20px">Um exemplo do que posso construir.</h2>
         <p class="lead case-study-intro">
           Este é um exemplo do tipo de solução que costumo desenvolver: uma plataforma de planeamento de produção que
@@ -699,7 +707,7 @@
         </p>
 
         <div class="case-study-grid">
-          <div class="case-study-item wide">
+          <div class="case-study-item wide reveal">
             <img src="assets/images/consultancy-planeamento.png" alt="Planeamento automático de folhas de obra" />
             <h4>Planeamento automático e ajustável</h4>
             <p>
@@ -707,7 +715,7 @@
               de ajustes manuais por arrastar-e-largar, e avisos sempre que um prazo está em risco de não ser cumprido.
             </p>
           </div>
-          <div class="case-study-item">
+          <div class="case-study-item reveal">
             <img src="assets/images/consultancy-graficos.png" alt="Dashboards e gráficos de produção" />
             <h4>Dashboards de produção</h4>
             <p>
@@ -715,7 +723,7 @@
               de gestão.
             </p>
           </div>
-          <div class="case-study-item">
+          <div class="case-study-item reveal">
             <img
               src="assets/images/consultancy-acabamentos.png"
               alt="Dashboard de acabamentos para a linha de produção"
@@ -726,7 +734,7 @@
               atualizado em tempo real.
             </p>
           </div>
-          <div class="case-study-item">
+          <div class="case-study-item reveal">
             <img src="assets/images/consultancy-nova-fo.png" alt="Criação de uma nova folha de obra" />
             <h4>Criação rápida de encomendas</h4>
             <p>
@@ -734,7 +742,7 @@
               calculados automaticamente por quantidade.
             </p>
           </div>
-          <div class="case-study-item">
+          <div class="case-study-item reveal">
             <img src="assets/images/consultancy-reportar.png" alt="Formulários de reporte de eventos" />
             <h4>Reporte de ocorrências</h4>
             <p>
@@ -744,37 +752,37 @@
           </div>
         </div>
 
-        <h3 class="capability-heading">Também é possível:</h3>
+        <h3 class="capability-heading reveal">Mais funcionalidades:</h3>
         <div class="capability-grid">
-          <div class="capability-item">
+          <div class="capability-item reveal">
             <i class="icon ion-md-link icon-wrap"></i>
             <p>
               <strong>Integração com sistemas existentes</strong> — ir buscar os trabalhos automaticamente aos sistemas
               que já usa, sem introdução manual duplicada.
             </p>
           </div>
-          <div class="capability-item">
+          <div class="capability-item reveal">
             <i class="icon ion-md-play icon-wrap"></i>
             <p>
               <strong>Início e fim de trabalhos pelo chão de fábrica</strong> — os trabalhadores registam o início e o
               fim de cada tarefa diretamente no sistema.
             </p>
           </div>
-          <div class="capability-item">
+          <div class="capability-item reveal">
             <i class="icon ion-md-speedometer icon-wrap"></i>
             <p>
               <strong>Eficiência por trabalhador</strong> — visibilidade sobre o desempenho de cada pessoa, com base em
               tempos reais de produção.
             </p>
           </div>
-          <div class="capability-item">
+          <div class="capability-item reveal">
             <i class="icon ion-md-git-network icon-wrap"></i>
             <p>
               <strong>Algoritmo de planeamento avançado</strong> — personalizável aos critérios específicos do seu
               negócio, como prioridades, capacidade e prazos.
             </p>
           </div>
-          <div class="capability-item">
+          <div class="capability-item reveal">
             <i class="icon ion-md-mail icon-wrap"></i>
             <p>
               <strong>Relatórios automáticos por email</strong> — geração e envio automático de relatórios semanais ou
@@ -788,7 +796,7 @@
     <!-- Final CTA -->
     <section>
       <div class="container-narrow">
-        <div class="cta-panel">
+        <div class="cta-panel reveal">
           <div class="eyebrow-numbered">04 — Próximo Passo</div>
           <h2 class="headline">Pronto para tornar o seu negócio mais ágil, digital e eficiente?</h2>
           <p class="lead">
@@ -842,5 +850,6 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
