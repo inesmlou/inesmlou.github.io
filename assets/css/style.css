@@ -721,26 +721,50 @@ Publications
   margin-bottom: 30px;
 }
 
+/* Eyebrow badge (pill with dot), shared with Consultancy */
+.eyebrow-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.eyebrow-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #e8c468;
+}
+
 .book-category {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #18c7b0;
+  color: #e8c468;
   margin-top: 36px;
   margin-bottom: 14px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(24, 199, 176, 0.25);
+  border-bottom: 1px solid rgba(232, 196, 104, 0.25);
 }
 .book-category:first-of-type {
   margin-top: 0;
 }
 
 .book-title {
-  font-weight: bold;
-  font-size: 16px;
-  color: #e6e6e6;
-  position: relative; /* Ensures the ::before element is positioned correctly */
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #f0f0f0;
+  position: relative; /* Ensures the ::after underline is positioned correctly */
 }
 
 .book-title::after {
@@ -750,18 +774,12 @@ Publications
   bottom: -2px; /* Adjust based on desired distance from the text */
   width: 0;
   height: 2px; /* Adjust based on desired thickness of the underline */
-  background-color: currentColor; /* Use the same color as the text */
-  transition: width 0.1s; /* Smooth transition effect */
+  background-color: #e8c468;
+  transition: width 0.2s ease-in-out;
 }
 
 .book-title:hover::after {
-  width: 95%; /* Adjust this value based on the initial left offset */
-  left: 32px; /* Maintain the initial offset */
-}
-
-.book-title::before {
-  content: "\1F4C3"; /* Unicode for the emoji */
-  margin-right: 8px; /* Space between the emoji and the text */
+  width: 100%;
 }
 
 .book-authors {
@@ -786,15 +804,13 @@ Publications
   margin-bottom: 16px; /* Space between each book card */
   padding: 16px 20px;
   background-color: rgba(255, 255, 255, 0.03);
-  border-left: 3px solid #18c7b0;
-  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
   transition: all 0.2s ease-in-out;
 }
 .book:hover {
-  background-color: rgba(255, 255, 255, 0.06);
-  border-left-color: #1eeada;
+  border-color: #e8c468;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 .book p {
   margin-bottom: 6px;
@@ -808,17 +824,19 @@ Publications
   padding: 4px 14px;
   margin-right: 10px;
   font-size: 12px;
-  color: #fff;
+  font-weight: 600;
+  color: #eee;
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid #4b8b38;
-  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
   transition: all 0.2s ease-in-out;
 }
 
 .book-buttons a:hover {
-  background: rgba(23, 243, 243, 0.3); /* Transparent overlay */
-  border-color: #18c7b0;
+  background-color: rgba(232, 196, 104, 0.12);
+  border-color: #e8c468;
+  color: #e8c468;
 }
 
 .award-note {
@@ -830,10 +848,10 @@ Publications
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  color: #ffd479;
-  background-color: rgba(255, 212, 121, 0.12);
-  border: 1px solid rgba(255, 212, 121, 0.3);
-  border-radius: 20px;
+  color: #e8c468;
+  background-color: rgba(232, 196, 104, 0.12);
+  border: 1px solid rgba(232, 196, 104, 0.3);
+  border-radius: 999px;
 }
 .award-note::before {
   content: "\2605"; /* star */
@@ -868,18 +886,18 @@ ul.emoji-list li::before {
   padding: 12px 18px;
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.03);
-  border-left: 3px solid #8a8585;
-  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
   line-height: 1.5;
   transition: all 0.2s ease-in-out;
 }
 .talks-container li:hover {
-  background-color: rgba(255, 255, 255, 0.06);
-  border-left-color: #1eb2a3;
+  border-color: #e8c468;
+  transform: translateY(-2px);
 }
 
 .colored-bold {
-  color: #1eb2a3;
+  color: #e8c468;
   font-weight: bold;
 }
 .colored-year {
