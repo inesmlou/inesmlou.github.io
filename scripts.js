@@ -3,20 +3,20 @@
 //////////////////////////
 
 // Typewritter effect for about-me
-document.addEventListener('DOMContentLoaded', function() {
-  const textElement = document.getElementById('typewriter-text');
+document.addEventListener("DOMContentLoaded", function () {
+  const textElement = document.getElementById("typewriter-text");
   const textContent = textElement.innerHTML;
-  textElement.innerHTML = '';
+  textElement.innerHTML = "";
   let i = 0;
 
   function typeWriter() {
-      if (i < textContent.length) {
-          textElement.innerHTML += textContent.charAt(i);
-          i++;
-          setTimeout(typeWriter, 30);
-      } else {
-          textElement.style.borderRight = 'none'; // Remove the cursor after typing is done
-      }
+    if (i < textContent.length) {
+      textElement.innerHTML += textContent.charAt(i);
+      i++;
+      setTimeout(typeWriter, 30);
+    } else {
+      textElement.style.borderRight = "none"; // Remove the cursor after typing is done
+    }
   }
 
   typeWriter();
@@ -24,9 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // For the projects popups
 function showPopup(rectangleId) {
-    var descriptions = {
-
-      'rect-KTH': `
+  var descriptions = {
+    "rect-KTH": `
       <div class="section white">
       <div class="center-text">
         <h3> <a href="https://www.kth.se/" target="_blank">KTH Royal Institute of Technology</a></h3>
@@ -174,7 +173,7 @@ function showPopup(rectangleId) {
       </div>
       `,
 
-      'rect-UCB': `
+    "rect-UCB": `
       <div class="section white">
       <div class="center-text">
         <h3><a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a></p></h3>
@@ -186,7 +185,7 @@ function showPopup(rectangleId) {
        </div>
       `,
 
-        'rect-WASP':  `
+    "rect-WASP": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://wasp-sweden.org/" target="_blank">WASP <br>Wallenberg AI and Software Program</a></h3>
@@ -310,7 +309,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-IST': `
+    "rect-IST": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://tecnico.ulisboa.pt/pt/" target="_blank">Instituto Superior Tecnico</a></h3>
@@ -328,7 +327,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-NTNU': `
+    "rect-NTNU": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.ntnu.edu/" target="_blank">NTNU Norwegian University of Science and Technology</a></h3>
@@ -339,7 +338,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-Champ': `
+    "rect-Champ": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.fchampalimaud.org/" target="_blank">Champalimaud Foundation</a></h3>
@@ -353,7 +352,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-Gulbenkian': `
+    "rect-Gulbenkian": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://gulbenkian.pt/ciencia/" target="_blank">Gulbenkian Science Institute</a></h3>
@@ -364,7 +363,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-others': `
+    "rect-others": `
         <div class="section white">
         <div class="center-text">
           <h3>Other internships</h3>
@@ -384,7 +383,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-scaleup':  `
+    "rect-scaleup": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://scaleuprobotics.com" target="_blank">Scaleup Robotics</a></h3>
@@ -399,7 +398,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-uncrux': `
+    "rect-uncrux": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.kth.se/en/om/innovation/kth-innovation-1.956839" target="_blank">KTH Innovation</a></h3>
@@ -410,7 +409,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-junitec2': `
+    "rect-junitec2": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://junitec.pt/home/" target="_blank">JUNITEC</a></h3>
@@ -449,8 +448,8 @@ function showPopup(rectangleId) {
         </div>
         </div>
         `,
-        
-        'rect-subvert': `
+
+    "rect-subvert": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="http://www.subvert.pt/en/" target="_blank">Subvert</a></h3>
@@ -460,8 +459,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-
-        'rect-phdchapter': `
+    "rect-phdchapter": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.dr.kth.se/" target="_blank">PhD Chapter Board</a></h3>
@@ -500,7 +498,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        'rect-WOP': `
+    "rect-WOP": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.kth.se/blogs/wop/" target="_blank">WOP Women of Power</a></h3>
@@ -529,9 +527,9 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        //'rect-others2': '<h3>Others</h3> <p><ul>  <li> SF angels</li> <li>CISV</li>  <li>Effective altruism</li>  </p>',
+    //'rect-others2': '<h3>Others</h3> <p><ul>  <li> SF angels</li> <li>CISV</li>  <li>Effective altruism</li>  </p>',
 
-        'rect-others2': `
+    "rect-others2": `
         <div class="section white">
         <div class="center-text">
             <h3>Others</h3> 
@@ -562,8 +560,7 @@ function showPopup(rectangleId) {
         </div>
         `,
 
-        
-        'rect-GDH': `
+    "rect-GDH": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.kth.se/en/om/internationellt/globaldevelopmenthub/kth-global-development-hub-1.1335047" target="_blank">KTH Global Development Hub</a></h3>
@@ -630,8 +627,8 @@ function showPopup(rectangleId) {
         </div>
         </div>
         `,
-      
-        'rect-EWB': `
+
+    "rect-EWB": `
         <div class="section white">
         <div class="center-text">
           <h3><a href="https://www.ewb-swe.org/" target="_blank">Engineers Without Borders</a></h3>
@@ -653,166 +650,161 @@ function showPopup(rectangleId) {
         </div>
         </div>
         `,
-    };
+  };
 
-    document.getElementById('popup-description').innerHTML = descriptions[rectangleId];
-    document.getElementById('popup').style.display = 'block';
+  document.getElementById("popup-description").innerHTML = descriptions[rectangleId];
+  document.getElementById("popup").style.display = "block";
 
-    
-    $(document).ready(function(){
+  $(document).ready(function () {
+    $(".hide1").hide();
+
+    console.log("Document is ready");
+
+    $(".marker-sweden").click(function () {
       $(".hide1").hide();
-
-      console.log("Document is ready");
-      
-      $(".marker-sweden").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-        $(".sweden-txt1").show();
-      });
-        $(".marker-berkeley").click(function(){
-          $(".hide1").hide();
-          console.log("Marker clicked");
-        $(".berkeley-txt1").show();
-      });
-        $(".marker-chile").click(function(){
-          $(".hide1").hide();
-          console.log("Marker clicked");
-        $(".chile-txt1").show();
-      });
-        $(".marker-mexico").click(function(){
-          $(".hide1").hide();
-        $(".mexico-txt1").show();
-      });
-      $(".marker-miami").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".miami-txt1").show();
-      });
-      $(".marker-france").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".france-txt1").show();
-      });
-      $(".marker-barcelona").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".barcelona-txt1").show();
-      });
-      $(".marker-padova").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".padova-txt1").show();
-      });
-      $(".marker-korea").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".korea-txt1").show();
-      });
-      $(".marker-singapore").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".singapore-txt1").show();
-      });
-
-      $(".marker-sweden2").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".sweden-txt2").show();
-      });
-      $(".marker-uk2").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".uk-txt2").show();
-      });
-      $(".marker-germany2").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".germany-txt2").show();
-      });
-      $(".marker-linkoping").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".linkoping-txt").show();
-      });
-      $(".marker-lund").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".lund-txt").show();
-      });
-      $(".marker-umea").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".umea-txt").show();
-      });
-      $(".marker-gotenburg").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".gotenburg-txt").show();
-      });
-
-      $(".marker-botswana").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".botswana-txt").show();
-      });
-      $(".marker-kenya").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".kenya-txt").show();
-      });
-      $(".marker-rwanda").click(function(){
-        $(".hide1").hide();
-        console.log("Marker clicked");
-      $(".rwanda-txt").show();
-      });
-
+      console.log("Marker clicked");
+      $(".sweden-txt1").show();
     });
+    $(".marker-berkeley").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".berkeley-txt1").show();
+    });
+    $(".marker-chile").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".chile-txt1").show();
+    });
+    $(".marker-mexico").click(function () {
+      $(".hide1").hide();
+      $(".mexico-txt1").show();
+    });
+    $(".marker-miami").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".miami-txt1").show();
+    });
+    $(".marker-france").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".france-txt1").show();
+    });
+    $(".marker-barcelona").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".barcelona-txt1").show();
+    });
+    $(".marker-padova").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".padova-txt1").show();
+    });
+    $(".marker-korea").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".korea-txt1").show();
+    });
+    $(".marker-singapore").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".singapore-txt1").show();
+    });
+
+    $(".marker-sweden2").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".sweden-txt2").show();
+    });
+    $(".marker-uk2").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".uk-txt2").show();
+    });
+    $(".marker-germany2").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".germany-txt2").show();
+    });
+    $(".marker-linkoping").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".linkoping-txt").show();
+    });
+    $(".marker-lund").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".lund-txt").show();
+    });
+    $(".marker-umea").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".umea-txt").show();
+    });
+    $(".marker-gotenburg").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".gotenburg-txt").show();
+    });
+
+    $(".marker-botswana").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".botswana-txt").show();
+    });
+    $(".marker-kenya").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".kenya-txt").show();
+    });
+    $(".marker-rwanda").click(function () {
+      $(".hide1").hide();
+      console.log("Marker clicked");
+      $(".rwanda-txt").show();
+    });
+  });
 }
 
 function hidePopup() {
-    document.getElementById('popup').style.display = 'none';
+  document.getElementById("popup").style.display = "none";
 }
 
 // Close the popup if the user clicks outside of the popup content
-window.onclick = function(event) {
-  var popup = document.getElementById('popup');
+window.onclick = function (event) {
+  var popup = document.getElementById("popup");
   if (event.target == popup) {
-      hidePopup();
+    hidePopup();
   }
-}
-
-
+};
 
 ///////////////////////////
 //  For the Hobbies map
 //////////////////////////
 
-$(document).ready(function(){
-    $(".hide").hide();
+$(document).ready(function () {
+  $(".hide").hide();
 
-    console.log("Document is ready");
-    
-    $(".marker-sweden").click(function(){
-      $(".hide").hide();
-      console.log("Marker clicked");
-      $(".sweden-txt").show();
-    });
-    
-      $(".marker-usa").click(function(){
-         $(".hide").hide();
-         console.log("Marker clicked");
-      $(".usa-txt").show();
-    });
-    
-      $(".marker-portugal").click(function(){
-         $(".hide").hide();
-         console.log("Marker clicked");
-      $(".portugal-txt").show();
-    });
-    
-      $(".marker-mexico").click(function(){
-         $(".hide").hide();
-      $(".mexico-txt").show();
-    });
-  
+  console.log("Document is ready");
+
+  $(".marker-sweden").click(function () {
+    $(".hide").hide();
+    console.log("Marker clicked");
+    $(".sweden-txt").show();
   });
+
+  $(".marker-usa").click(function () {
+    $(".hide").hide();
+    console.log("Marker clicked");
+    $(".usa-txt").show();
+  });
+
+  $(".marker-portugal").click(function () {
+    $(".hide").hide();
+    console.log("Marker clicked");
+    $(".portugal-txt").show();
+  });
+
+  $(".marker-mexico").click(function () {
+    $(".hide").hide();
+    $(".mexico-txt").show();
+  });
+});

@@ -1,248 +1,846 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="author" content="Diego Velázquez" />
-   <meta name="description"
-       content="Personal Portfolio is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Inês Lourenço" />
+    <meta
+      name="description"
+      content="Serviços de consultoria em automação de processos, dados e IA para PMEs, por Inês Lourenço."
+    />
 
-   <meta property="og:title" content="News - Personal Portfolio - Themes Bootstrap">
-   <meta property="og:site_name" content="Themes Bootstrap">
-   <meta property="og:type" content="website">
-   <meta property="og:description"
-       content="Personal Portfolio is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
-   <meta property="og:image" content="">
-   <meta property="og:url" content="https://themesbootstrap.com.mx/templates/personal-portfolio-template/news.html">
-   <meta property="og:image:alt" content="Themes Bootstrap">
+    <meta property="og:title" content="Consultoria - Inês Lourenço" />
+    <meta property="og:site_name" content="Inês Lourenço" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Serviços de consultoria em automação de processos, dados e IA para PMEs, por Inês Lourenço."
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="Inês Lourenço" />
 
-   <link rel="canonical" href="https://themesbootstrap.com.mx/templates/personal-portfolio-template/news.html" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
 
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-   <!-- Custom styles -->
-   <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,300i,400i,700i|Roboto:300,400,600|Roboto+Mono:400,500"
+      rel="stylesheet"
+    />
 
-   <!-- Google Fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Roboto:300,400,600" rel="stylesheet">
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet" />
 
-   <!-- Ionic icons -->
-   <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
 
-   <!-- Favicon -->
-   <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <title>Consultoria - Inês Lourenço</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68929300-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-   <title>News - Personal Portfolio - Themes Bootstrap</title>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68929300-2"></script>
-   <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag() { dataLayer.push(arguments); }
-       gtag('js', new Date());
+      gtag("config", "UA-68929300-2");
+    </script>
+    <style>
+      :root {
+        --gold: #e8c468;
+        --gold-soft: rgba(232, 196, 104, 0.12);
+        --card-bg: rgba(255, 255, 255, 0.03);
+        --card-border: rgba(255, 255, 255, 0.1);
+      }
 
-       gtag('config', 'UA-68929300-2');
-   </script>
-  <style>
-    body {
-      color: #fff;
-      font-family: 'Roboto', sans-serif;
-    }
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin: 20px 0;
-    }
-    h2 {
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: #bbb;
-      font-size: 1rem;
-    }
-    h3 {
-      margin-top: 50px;
-      margin-bottom: 20px;
-      font-size: 1.5rem;
-      color: #fff;
-    }
-    p {
-      color: #ccc;
-      max-width: 800px;
-      margin: 0 auto 20px;
-      font-size: 1.1rem;
-    }
-    .section-label {
-      margin-top: 60px;
-    }
-    .service-list{
-      list-style: none;
-      padding-left: 0;
-      font-size: 1.1rem;
-      margin: 0 auto;
-      max-width: 500px;
-      text-align: left;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    .tag-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-    }
-    .tag {
-      background-color: #080000;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-size: 1rem;
-      transition: all 0.3s ease;
-    }
-    .tag:hover {
-      background-color: #4CAF50;
-      color: #000;
-    }
-    blockquote {
-      border-left: 4px solid #4CAF50;
-      padding-left: 15px;
-      margin: 20px auto;
-      max-width: 700px;
-      text-align: left;
-      color: #ccc;
-    }
-    blockquote strong {
-      display: block;
-      margin-bottom: 10px;
-    }
-    blockquote span {
-      color: #888;
-    }
-    .cta-buttons {
-      margin-top: 30px;
-    }
-    .btn-dark {
-      display: inline-block;
-      background-color: #070000;
-      color: #fff;
-      padding: 10px 25px;
-      margin: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-    }
-    .btn-dark:hover {
-      background-color: #4CAF50;
-      color: #000;
-    }
-  </style>
-</head>
-<body>
+      body {
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        background-color: #0d0d0d;
+      }
 
+      .container-narrow {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
 
-  <nav class="navbar fixed-top navbar-expand-lg">
-    <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="header-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="icon ion-md-menu"></i>
+      section {
+        padding: 70px 0;
+      }
+
+      h1,
+      h2.headline,
+      h3.headline {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+
+      .accent-italic {
+        font-style: italic;
+        color: var(--gold);
+      }
+
+      p.lead {
+        color: #b8b8b8;
+        max-width: 620px;
+        font-size: 1.1rem;
+        line-height: 1.7;
+      }
+
+      /* Eyebrow badge (pill with dot) */
+      .eyebrow-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 18px;
+        border: 1px solid var(--card-border);
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ccc;
+        margin-bottom: 26px;
+      }
+      .eyebrow-badge::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: var(--gold);
+      }
+
+      /* Numbered eyebrow */
+      .eyebrow-numbered {
+        font-family: "Roboto Mono", monospace;
+        font-size: 0.78rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #777;
+        margin-bottom: 14px;
+      }
+
+      /* Hero */
+      .hero-section {
+        padding-top: 60px;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 60px;
+        align-items: center;
+      }
+      .hero-grid h1 {
+        font-size: 3rem;
+        margin: 0 0 24px;
+      }
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 34px;
+      }
+
+      /* Buttons */
+      .btn-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 26px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.95rem;
+        transition: all 0.2s ease-in-out;
+      }
+      .btn-pill.gold {
+        background-color: var(--gold);
+        color: #0d0d0d;
+      }
+      .btn-pill.gold:hover {
+        background-color: #f0d488;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px rgba(232, 196, 104, 0.25);
+        color: #0d0d0d;
+      }
+      .btn-pill.outline {
+        background-color: transparent;
+        color: #eee;
+        border: 1px solid var(--card-border);
+      }
+      .btn-pill.outline:hover {
+        border-color: var(--gold);
+        color: var(--gold);
+        transform: translateY(-2px);
+      }
+      .btn-pill.plain {
+        background-color: transparent;
+        color: #ddd;
+        border: 1px solid var(--card-border);
+        font-weight: 400;
+      }
+
+      /* Hero preview panel */
+      .hero-panel {
+        border: 1px solid var(--card-border);
+        border-radius: 20px;
+        background: linear-gradient(160deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0));
+        padding: 18px;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-panel::after {
+        content: "";
+        position: absolute;
+        top: -60px;
+        right: -60px;
+        width: 220px;
+        height: 220px;
+        background: radial-gradient(circle, rgba(232, 196, 104, 0.18), transparent 70%);
+        pointer-events: none;
+      }
+      .hero-panel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Roboto Mono", monospace;
+        font-size: 0.72rem;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #999;
+        padding: 4px 8px 16px;
+      }
+      .hero-panel img {
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      }
+      .hero-panel-caption {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 16px;
+        padding: 10px 14px;
+        border: 1px solid var(--card-border);
+        border-radius: 999px;
+        font-size: 0.8rem;
+        color: #bbb;
+        width: fit-content;
+      }
+      .hero-panel-caption .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: var(--gold);
+        flex-shrink: 0;
+      }
+
+      /* Section headline row */
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .section-head h2.headline {
+        font-size: 2.1rem;
+        margin: 0;
+        max-width: 620px;
+      }
+      .section-head p.lead {
+        max-width: 380px;
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      /* Feature / service cards */
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid var(--card-border);
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .feature-card {
+        padding: 34px 30px;
+        border-right: 1px solid var(--card-border);
+        border-bottom: 1px solid var(--card-border);
+        transition: background-color 0.2s ease-in-out;
+      }
+      .card-grid .feature-card:nth-child(3n) {
+        border-right: none;
+      }
+      .card-grid .feature-card:nth-last-child(-n + 3) {
+        border-bottom: none;
+      }
+      .feature-card:hover {
+        background-color: rgba(255, 255, 255, 0.02);
+      }
+      .feature-card .icon-wrap {
+        color: var(--gold);
+        font-size: 1.6rem;
+        margin-bottom: 18px;
+        display: block;
+      }
+      .feature-card h4 {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+      .feature-card p {
+        color: #aaa;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+      .feature-card .included {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.82rem;
+        color: #888;
+      }
+      .feature-card .included i {
+        color: var(--gold);
+      }
+      .feature-card.quote {
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.02);
+      }
+      .feature-card.quote p {
+        font-family: "Merriweather", serif;
+        font-style: italic;
+        font-size: 1.2rem;
+        color: #ddd;
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 900px) {
+        .card-grid {
+          grid-template-columns: 1fr;
+        }
+        .card-grid .feature-card {
+          border-right: none !important;
+        }
+        .card-grid .feature-card:last-child {
+          border-bottom: none !important;
+        }
+      }
+
+      /* Work areas */
+      .work-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+      }
+      .work-card {
+        padding: 24px;
+        border: 1px solid var(--card-border);
+        border-radius: 14px;
+        transition: all 0.2s ease-in-out;
+      }
+      .work-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-3px);
+      }
+      .work-card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 26px;
+      }
+      .work-card-top i {
+        color: var(--gold);
+        font-size: 1.5rem;
+      }
+      .work-card-top span {
+        font-family: "Roboto Mono", monospace;
+        font-size: 0.8rem;
+        color: #666;
+      }
+      .work-card h4 {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-size: 1.1rem;
+        color: #fff;
+        margin: 0;
+      }
+      @media (max-width: 900px) {
+        .work-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 560px) {
+        .work-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* Case study */
+      .case-study-intro {
+        max-width: 680px;
+        margin-bottom: 40px;
+      }
+      .case-study-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .case-study-item {
+        background-color: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 16px;
+        padding: 20px;
+        transition: all 0.2s ease-in-out;
+      }
+      .case-study-item:hover {
+        border-color: var(--gold);
+        transform: translateY(-3px);
+      }
+      .case-study-item.wide {
+        grid-column: 1 / -1;
+      }
+      .case-study-item img {
+        width: 100%;
+        border-radius: 8px;
+        display: block;
+        margin-bottom: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      }
+      .case-study-item h4 {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.15rem;
+        margin-bottom: 8px;
+      }
+      .case-study-item p {
+        color: #aaa;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin: 0;
+      }
+      @media (max-width: 767.98px) {
+        .case-study-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .capability-heading {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: #fff;
+        margin: 48px 0 20px;
+      }
+      .capability-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 16px;
+      }
+      .capability-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        background-color: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 14px;
+        padding: 18px 20px;
+        transition: all 0.2s ease-in-out;
+      }
+      .capability-item:hover {
+        border-color: var(--gold);
+        transform: translateY(-2px);
+      }
+      .capability-item i {
+        color: var(--gold);
+        font-size: 1.3rem;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .capability-item p {
+        margin: 0;
+        color: #aaa;
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+      .capability-item strong {
+        color: #eee;
+      }
+
+      /* Final CTA panel */
+      .cta-panel {
+        position: relative;
+        border: 1px solid var(--card-border);
+        border-radius: 24px;
+        padding: 60px;
+        overflow: hidden;
+      }
+      .cta-panel::after {
+        content: "";
+        position: absolute;
+        top: -80px;
+        right: -80px;
+        width: 320px;
+        height: 320px;
+        background: radial-gradient(circle, rgba(232, 196, 104, 0.16), transparent 70%);
+        pointer-events: none;
+      }
+      .cta-panel h2.headline {
+        font-size: 2.2rem;
+        max-width: 640px;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .cta-panel p.lead {
+        max-width: 560px;
+        position: relative;
+      }
+      .cta-panel .hero-actions {
+        position: relative;
+      }
+
+      @media (max-width: 900px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+        .cta-panel {
+          padding: 34px;
+        }
+        .section-head {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="header-logo" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="icon ion-md-menu"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <!--
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="publications.html">Publications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="consultancy.html">Consultancy</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="consultancy.html">Consultancy</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-  <section>
-    <h2 class="section-label">Consultancy Services</h2>
-    <h1>Empowering businesses through data,<br>automation, and AI</h1>
-    <p>As a specialist in business development and digital transformation, I want to help SMEs that are looking to modernize their processes, reduce manual tasks, and improve operational efficiency. My goal is to support businesses like yours in automating workflows, optimizing resources, and implementing digital systems tailored to your needs.</p>
+    <!-- Hero -->
+    <section class="hero-section">
+      <div class="container-narrow">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow-badge">Serviços de Consultoria</span>
+            <h1>
+              Impulsionar negócios através de
+              <span class="accent-italic">dados, automação</span>
+              e IA.
+            </h1>
+            <p class="lead">
+              Ajudo PMEs a modernizar a forma como trabalham — a reduzir o esforço manual, a automatizar o repetitivo, e
+              a transformar dados dispersos em sistemas que apoiam melhores decisões, mais rápido.
+            </p>
+            <div class="hero-actions">
+              <a href="mailto:inexlourenco@gmail.com" class="btn-pill gold">
+                Contactar-me <i class="icon ion-md-mail"></i>
+              </a>
+            </div>
+          </div>
 
-    <h3>My Services</h3>
-    <ul class="service-list">
-      <li>✅ Assessment of existing processes and workflows</li>
-      <li>✅ Process automation and workflow optimization</li>
-      <li>✅ Data strategy and AI implementation</li>
-      <li>✅ Custom dashboards for business insights</li>
-      <li>✅ Training and mentoring</li>
-    </ul>
+          <div class="hero-panel">
+            <div class="hero-panel-header">
+              <span>Exemplo de Projeto</span>
+              <span>●&nbsp;&nbsp;●&nbsp;&nbsp;●</span>
+            </div>
+            <img src="assets/images/consultancy-planeamento.png" alt="Planeamento automático de folhas de obra" />
+            <div class="hero-panel-caption">
+              <span class="dot"></span>
+              Exemplo — WebApp de planeamento de produção
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h3>Work Areas</h3>
-    <div class="tag-container">
-      <div class="tag">Automation Softwares</div>
-      <div class="tag">Machine Learning and AI Solutions</div>
-      <div class="tag">Custom Software Development</div>
-      <div class="tag">Data Analysis and Visualization</div>
-    </div>
+    <!-- Services -->
+    <section>
+      <div class="container-narrow">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow-numbered">01 — Serviços</div>
+            <h2 class="headline">Um conjunto de ferramentas focado para negócios que querem avançar mais depressa.</h2>
+          </div>
+          <p class="lead">
+            Cada projeto é desenhado à medida da sua realidade — sem frameworks genéricos, sem relatórios
+            estandardizados.
+          </p>
+        </div>
 
-    <h3>What Clients Say</h3>
-    <blockquote>
-      <strong>“Working with you was a game-changer for our operations. The automated workflows saved us hours every week.”</strong>
-      <span>– João, Operations Manager</span>
-    </blockquote>
-    <blockquote>
-      <strong>“The dashboards you built gave us real-time visibility we never had before. Highly recommend!”</strong>
-      <span>– Sofia, CEO of TechNova</span>
-    </blockquote>
+        <div class="card-grid">
+          <div class="feature-card">
+            <i class="icon ion-md-checkbox-outline icon-wrap"></i>
+            <h4>Avaliação de processos</h4>
+            <p>
+              Uma auditoria estruturada aos fluxos de trabalho atuais, para identificar estrangulamentos, duplicação de
+              esforço e vitórias rápidas.
+            </p>
+            <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
+          </div>
+          <div class="feature-card">
+            <i class="icon ion-md-git-network icon-wrap"></i>
+            <h4>Automação e fluxos de trabalho</h4>
+            <p>Substituição de trabalho manual e repetitivo por automações fiáveis que libertam tempo à sua equipa.</p>
+            <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
+          </div>
+          <div class="feature-card">
+            <i class="icon ion-md-bulb icon-wrap"></i>
+            <h4>Estratégia de dados e IA</h4>
+            <p>Adoção pragmática de IA — desde provas de conceito até sistemas em produção em que pode confiar.</p>
+            <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
+          </div>
+          <div class="feature-card">
+            <i class="icon ion-md-speedometer icon-wrap"></i>
+            <h4>Dashboards personalizados</h4>
+            <p>Visibilidade em tempo real sobre as métricas que realmente fazem o seu negócio avançar.</p>
+            <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
+          </div>
+          <div class="feature-card">
+            <i class="icon ion-md-school icon-wrap"></i>
+            <h4>Formação e mentoria</h4>
+            <p>
+              Capacitação da sua equipa para que os sistemas continuem a gerar valor muito depois do projeto terminar.
+            </p>
+            <div class="included"><i class="icon ion-md-checkmark"></i> Incluído na chamada inicial</div>
+          </div>
+          <div class="feature-card quote">
+            <p>"Pequenas mudanças na forma como se trabalha — grandes mudanças no que uma equipa consegue fazer."</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h3>Ready to take the next step?</h3>
-    <p>If you are looking for practical solutions to make your business more agile, digital, and efficient, I'm available for an initial conversation — no strings attached.</p>
-    <p>Book a free consultation or reach out directly!</p>
+    <!-- Work areas -->
+    <section>
+      <div class="container-narrow">
+        <div class="eyebrow-numbered">02 — Áreas de Trabalho</div>
+        <h2 class="headline" style="font-size: 2.1rem; margin-bottom: 34px">Onde o trabalho acontece.</h2>
 
-    <div class="cta-buttons">
-      <a href="mailto:inexlourenco@gmail.com" class="btn-dark">Contact Me</a>
-      <a href="https://calendly.com/inexlourenco/my-calendar" class="btn-dark" target="_blank">Book on Calendly</a>
-    </div>
-  </section>
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="work-card-top"><i class="icon ion-md-cog"></i><span>01</span></div>
+            <h4>Software de Automação</h4>
+          </div>
+          <div class="work-card">
+            <div class="work-card-top"><i class="icon ion-md-bulb"></i><span>02</span></div>
+            <h4>Machine Learning e IA</h4>
+          </div>
+          <div class="work-card">
+            <div class="work-card-top"><i class="icon ion-md-code"></i><span>03</span></div>
+            <h4>Software à Medida</h4>
+          </div>
+          <div class="work-card">
+            <div class="work-card-top"><i class="icon ion-md-stats"></i><span>04</span></div>
+            <h4>Dados e Visualização</h4>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- Case study -->
+    <section>
+      <div class="container-narrow">
+        <div class="eyebrow-numbered">03 — Exemplo de Projeto</div>
+        <h2 class="headline" style="font-size: 2.1rem; margin-bottom: 20px">Um exemplo do que posso construir.</h2>
+        <p class="lead case-study-intro">
+          Este é um exemplo do tipo de solução que costumo desenvolver: uma plataforma de planeamento de produção que
+          substitui processos manuais em papel e folhas de cálculo por um sistema centralizado de gestão de encomendas.
+          Este tipo de sistema pode automatizar o planeamento, acompanhar o trabalho de cada equipa em tempo real, e dar
+          visibilidade sobre prazos, recursos e produtividade.
+        </p>
 
+        <div class="case-study-grid">
+          <div class="case-study-item wide">
+            <img src="assets/images/consultancy-planeamento.png" alt="Planeamento automático de folhas de obra" />
+            <h4>Planeamento automático e ajustável</h4>
+            <p>
+              Neste exemplo, as encomendas são planeadas automaticamente pelos recursos disponíveis, com possibilidade
+              de ajustes manuais por arrastar-e-largar, e avisos sempre que um prazo está em risco de não ser cumprido.
+            </p>
+          </div>
+          <div class="case-study-item">
+            <img src="assets/images/consultancy-graficos.png" alt="Dashboards e gráficos de produção" />
+            <h4>Dashboards de produção</h4>
+            <p>
+              Gráficos em tempo real sobre o estado das encomendas e o volume de trabalho semanal, para apoiar decisões
+              de gestão.
+            </p>
+          </div>
+          <div class="case-study-item">
+            <img
+              src="assets/images/consultancy-acabamentos.png"
+              alt="Dashboard de acabamentos para a linha de produção"
+            />
+            <h4>Dashboard da linha de produção</h4>
+            <p>
+              Ecrã dedicado para a secção de acabamentos, com as tarefas do turno, tempos estimados e progresso
+              atualizado em tempo real.
+            </p>
+          </div>
+          <div class="case-study-item">
+            <img src="assets/images/consultancy-nova-fo.png" alt="Criação de uma nova folha de obra" />
+            <h4>Criação rápida de encomendas</h4>
+            <p>
+              Novas Folhas de Obra são criadas a partir de Fichas Técnicas pré-configuradas, com tempos de produção
+              calculados automaticamente por quantidade.
+            </p>
+          </div>
+          <div class="case-study-item">
+            <img src="assets/images/consultancy-reportar.png" alt="Formulários de reporte de eventos" />
+            <h4>Reporte de ocorrências</h4>
+            <p>
+              Formulários simples para a equipa reportar avarias, desperdícios, acidentes e reclamações, centralizando
+              informação que antes se perdia.
+            </p>
+          </div>
+        </div>
 
-  <section id="footer">
-    <div class="container">
-        <!-- <h6>Let's work together.</h6> -->
-        <small>© In&ecirc;s Louren&ccedil;o 2025  </small>
+        <h3 class="capability-heading">Também é possível:</h3>
+        <div class="capability-grid">
+          <div class="capability-item">
+            <i class="icon ion-md-link icon-wrap"></i>
+            <p>
+              <strong>Integração com sistemas existentes</strong> — ir buscar os trabalhos automaticamente aos sistemas
+              que já usa, sem introdução manual duplicada.
+            </p>
+          </div>
+          <div class="capability-item">
+            <i class="icon ion-md-play icon-wrap"></i>
+            <p>
+              <strong>Início e fim de trabalhos pelo chão de fábrica</strong> — os trabalhadores registam o início e o
+              fim de cada tarefa diretamente no sistema.
+            </p>
+          </div>
+          <div class="capability-item">
+            <i class="icon ion-md-speedometer icon-wrap"></i>
+            <p>
+              <strong>Eficiência por trabalhador</strong> — visibilidade sobre o desempenho de cada pessoa, com base em
+              tempos reais de produção.
+            </p>
+          </div>
+          <div class="capability-item">
+            <i class="icon ion-md-git-network icon-wrap"></i>
+            <p>
+              <strong>Algoritmo de planeamento avançado</strong> — personalizável aos critérios específicos do seu
+              negócio, como prioridades, capacidade e prazos.
+            </p>
+          </div>
+          <div class="capability-item">
+            <i class="icon ion-md-mail icon-wrap"></i>
+            <p>
+              <strong>Relatórios automáticos por email</strong> — geração e envio automático de relatórios semanais ou
+              mensais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section>
+      <div class="container-narrow">
+        <div class="cta-panel">
+          <div class="eyebrow-numbered">04 — Próximo Passo</div>
+          <h2 class="headline">Pronto para tornar o seu negócio mais ágil, digital e eficiente?</h2>
+          <p class="lead">
+            Vamos ter uma conversa inicial — sem compromisso. Vemos onde está, e onde a automação, a IA e melhores dados
+            o podem levar a seguir.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:inexlourenco@gmail.com" class="btn-pill gold">
+              Contactar-me <i class="icon ion-md-mail"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <small>© In&ecirc;s Louren&ccedil;o 2025 </small>
         <ul class="list-inline margintop-sm">
-            <li class="list-inline-item"><a href="mailto:inexlourenco@gmail.com" target="_blank"><i class="icon ion-md-mail"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/inesmlourenco" target="_blank"><i class="icon ion-logo-linkedin" target="_blank"></i></a></li>
-            <li class="list-inline-item"><a href="https://scholar.google.se/citations?user=QwE1O6wAAAAJ&hl=en" target="_blank"><i class="icon ion-md-school"></i></a></li>
+          <li class="list-inline-item">
+            <a href="mailto:inexlourenco@gmail.com" target="_blank"><i class="icon ion-md-mail"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/inesmlourenco" target="_blank"
+              ><i class="icon ion-logo-linkedin" target="_blank"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://scholar.google.se/citations?user=QwE1O6wAAAAJ&hl=en" target="_blank"
+              ><i class="icon ion-md-school"></i
+            ></a>
+          </li>
         </ul>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
